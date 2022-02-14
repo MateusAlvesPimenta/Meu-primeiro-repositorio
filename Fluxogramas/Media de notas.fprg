@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Filipe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-01 06:15:53 "/>
+        <attribute name="created" value="RmlsaXBlO0xBUFRPUC1NTjNJSkVLUTsyMDIyLTAyLTAxOyIwNTo1NTowMCAiOzI4Njc="/>
+        <attribute name="edited" value="RmlsaXBlO0xBUFRPUC1NTjNJSkVLUTsyMDIyLTAyLTAxOyIwNjoxNTo1MyAiOzE7Mjk4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="aluno, sobrenome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Insira o nome do aluno&quot;" newline="True"/>
+            <input variable="aluno"/>
+            <output expression="&quot;Insira o sobrenome do aluno&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="nota1+nota2+nota3+nota4"/>
+            <output expression="&quot;Nome do aluno: &quot; &amp; aluno &amp; &#13;&#10;&quot; sobrenome do aluno&quot; &amp; sobrenome &amp;&#13;&#10;&quot; Nota do 1&#176; bimestre: &quot; &amp; nota1 &amp; &#13;&#10;&quot; Nota do 2&#176; bimestre: &quot; &amp; nota2 &amp; &#13;&#10;&quot; Nota do 3&#176; bimestre: &quot; &amp; nota3 &amp; &#13;&#10;&quot; Nota do 4&#176; bimestre: &quot; &amp; nota4 &amp; &#13;&#10;&quot; Somat&#243;ria das notas: &quot; &amp; media &amp;&#13;&#10;&quot; M&#233;dia do aluno: &quot; &amp; media/4" newline="True"/>
+            <if expression="media/4 &gt;= 7">
+                <then>
+                    <output expression="&quot;Parabens &quot; &amp; aluno &amp; &quot; voc&#234; passou de ano!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Lamentamos, mas o aluno &quot; &amp; aluno &amp; &quot; foi reprovado pois n&#227;o atingiu a m&#233;dia minima de 7 para passar de ano!!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

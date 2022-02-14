@@ -1,0 +1,31 @@
+Algoritmo para transportar os pinguins e de seus pais de uma borda do gelo até a outra
+
+Há 3 familias, contendo filho e pai em cada uma delas:
+A de cachecol azul, a de cachecol verde e a de cachecol vermelho
+Deve haver pelo menos um pinguim no gelo para mover-lo
+
+Inicio do algoritmo
+
+Filho de cachecol vermelho sobe no gelo
+Pai de cachecol vermelho sobe no gelo
+atravessam
+Pai de cachecol vermelho desce do gelo
+atravessa
+Filho de cachecol azul sobe no gelo
+atravessam
+Filho de cachecol vermelho desce do gelo
+atravessa
+Pai de cachecol azul sobe no gelo
+atravessam
+Pai de cachecol azul desce do gelo
+atravessa
+Filho de cachecol verde sobe no gelo
+atravessam
+Filho de cachecol azul desce do gelo
+atravessa
+Pai de cachecol verde sobe no gelo
+atravessam
+Pai de cachecol verde desce do gelo
+Filho de cachecol verde desce do gelo
+
+Fim do algoritmo
