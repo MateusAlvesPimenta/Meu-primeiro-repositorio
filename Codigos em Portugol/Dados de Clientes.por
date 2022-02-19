@@ -29,7 +29,7 @@ programa
 			escreva("insira um numero que corresponda a um cliente ou 0 para ver todos eles"+"\n"+
 					"1- João"+"\n"+"2- Maria"+"\n"+"3- Ana."+ "\n")
 			leia(numero)
-			}enquanto(numero < 0 ou numero >2)
+			}enquanto(numero < 0 ou numero >3)
 		}
 		
 		se(numero >= 1 e numero <= 3)
@@ -62,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 938; 
+ * @POSICAO-CURSOR = 1218; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Mateus Alves Pimeta</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<header  class = "title">
+
+<h1>Este é o titulo 1</h1>
+
+</header>
+
+
+<article >
+<p >este é um paragrafo</p>
+<p>este é outro paragrafo.</br>Este possuí uma quebra de linha após o ponto
+<a target="_blank" href="https://www.youtube.com/">Youtube em nova aba</a>.</p>
+</article>
+
+
+<header  class = "subtitle">
+<h2>Este é o segundo titulo</h2>
+</header>
+
+<aside class="aside">
+<a href="https://www.youtube.com/">Youtube</a>
+</br>
+<a target="_blank" href="https://www.youtube.com/">Youtube em nova aba</a>
+</br>
+<img src="C:\Users\Filipe\Desktop\Mateus\Desenhos\semi morto.png" alt="Clone Drone"width=800px>
+<p>itens do jogo</p>
+</aside>
+
+<footer class="footer">
+<ul>
+	<li>Espada</li>
+	<li>Lança e Escudo</li>
+	<li>Martelo</li>
+	<li>Arco e Flecha</li>
+</ul>
+<p>Do melhor para o pior na minha opinião</p>
+
+<ol>
+	<li>Espada</li>
+	<li>Martelo</li>
+	<li>Arco e Flecha</li>
+	<li>Lança e Escudo</li>
+</ol>
+</footer>
+
+</body>
+
+</html>

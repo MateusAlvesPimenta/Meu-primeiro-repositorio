@@ -1,0 +1,62 @@
+body {
+	background: lightgray;
+	font-family:arial;
+	max-width:800px;
+	margin:auto;
+}
+
+p {
+	color: red;
+	font-size: 20px;
+	padding-left: 20px
+}
+
+.title {
+	color: blue;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	background:pink;
+	margin: auto;
+	border-radius: 20px;
+	border: 10px groove white;
+	padding:5px;
+}
+
+.subtitle {
+	color: #290aa2;
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+	background:white;
+	margin: auto;
+	border-radius: 20px;
+	border: 10px groove red;
+	padding:20px 20px 20px 20px;
+}
+
+.aside{
+	color: #290aa2;
+	text-align: center;
+	font-size: 25px;
+}
+
+a {
+	font-weight:bold;
+	text-transform: capitalize;
+}
+
+.img{
+	text-align: auto;
+}
+
+li{
+	padding-bottom:10px;
+}
+
+.footer{
+	list-style-position:inside;
+	margin: auto;
+	border:5px solid black;
+	text-align: center;
+}
