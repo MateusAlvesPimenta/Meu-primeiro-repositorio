@@ -17,13 +17,11 @@ programa
 		
 	leia(limite)
 	
-		escolha(limite)
-		{
-		caso 0:
+		se(limite<=0){
 			escreva("Por favor, Insira um valor maior que 0: ")
-		pare
+		}
 		
-		caso contrario:	
+		senao{	
 			faca
 			{
 				
@@ -31,8 +29,8 @@ programa
 				multiplicador++
 				
 			}enquanto(multiplicador<=limite)
-		pare
 		}
+		
 	}enquanto(limite<=0)
 	
 	}
@@ -42,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 205; 
+ * @POSICAO-CURSOR = 494; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

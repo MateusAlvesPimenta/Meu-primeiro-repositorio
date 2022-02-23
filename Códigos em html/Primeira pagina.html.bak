@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<header  class = "title">
+<header id="subir" class = "title">
 
 <h1>Este é o titulo 1</h1>
 
@@ -34,11 +34,11 @@
 <a target="_blank" href="https://www.youtube.com/">Youtube em nova aba</a>
 </br>
 <img src="C:\Users\Filipe\Desktop\Mateus\Desenhos\semi morto.png" alt="Clone Drone"width=800px>
-<p>itens do jogo</p>
 </aside>
 
 <footer class="footer">
-<ul>
+<p>itens do jogo</p>
+<ul list-style-type:"square";>
 	<li>Espada</li>
 	<li>Lança e Escudo</li>
 	<li>Martelo</li>
@@ -52,6 +52,7 @@
 	<li>Arco e Flecha</li>
 	<li>Lança e Escudo</li>
 </ol>
+<a href="#subir">Subir de volta para o topo</a>
 </footer>
 
 </body>

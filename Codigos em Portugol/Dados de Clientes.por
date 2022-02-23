@@ -22,8 +22,7 @@ programa
 		
 		leia (numero)
 		
-		se (numero < 0 ou numero >3)
-		{
+		se (numero < 0 ou numero >3){
 			faca
 			{
 			escreva("insira um numero que corresponda a um cliente ou 0 para ver todos eles"+"\n"+
@@ -32,8 +31,7 @@ programa
 			}enquanto(numero < 0 ou numero >3)
 		}
 		
-		se(numero >= 1 e numero <= 3)
-		{
+		se(numero >= 1 e numero <= 3){
 		numero--
 			escreva("\n"+"cliente		Cidade		Celular "+"\n"+clientes [numero][0]+"		"+
 															clientes [numero][1]+"  	"+ 
@@ -62,7 +60,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1218; 
+ * @POSICAO-CURSOR = 741; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
