@@ -1,0 +1,21 @@
+body{
+    margin-top: 5cm;
+    text-align: center;
+    justify-items: center;
+    font-family: arial;
+    background-color: aqua;
+}
+button{
+    font-size: medium;
+    border: 5px solid purple;
+    border-radius: 50%;
+    background-color: deeppink;
+    height: 3cm;
+    width: 3cm;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    border-color: darkorchid;
+    background-color: pink;
+}
