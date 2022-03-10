@@ -1,0 +1,28 @@
+body{
+    font-family: arial;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5cm;
+    background-color: lightgreen;
+}
+p{
+    font-size: .5cm;
+}
+h1{
+    font-size: 1cm;
+}
+button{
+    border: 5px solid darkblue;
+    border-radius: 50%;
+    height: 3cm;
+    width: 3cm;
+    background-color: rgb(0, 125, 167);
+    transition: .3s;
+    color: black;
+}
+button:hover{
+    border-color: dodgerblue;
+    background-color: deepskyblue;
+    color: white;
+}
