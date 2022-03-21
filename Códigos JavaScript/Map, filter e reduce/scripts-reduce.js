@@ -31,4 +31,5 @@ const precos=[
 const Saldo=500;
 
 console.log("Saldo inicial: "+Saldo+ 
+            "\nPreço total da compra: "+precos.reduce((acumulador,atual)=>acumulador+atual.valor,0) +
             "\nSaldo pós compras: "+ precos.reduce((acumulador,atual)=>acumulador-atual.valor,Saldo));

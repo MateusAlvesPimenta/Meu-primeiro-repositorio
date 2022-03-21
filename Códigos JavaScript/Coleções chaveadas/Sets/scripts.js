@@ -1,5 +1,5 @@
-/*var array =[30, 30, 40, 5, 223, 2049, 3034, 5];
-
+/*var array =[30, 32, 40, 5, 223, 2049, 3034, 5];
+var array2 =[];
 
 function semIguais(array){
 

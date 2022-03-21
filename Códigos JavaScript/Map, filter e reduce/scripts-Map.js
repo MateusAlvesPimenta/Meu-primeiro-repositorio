@@ -7,4 +7,4 @@ var objeto = {
 };
 
 console.log("Sem this: "+array.map((posicao)=>posicao*9));
-console.log("Sem this: "+array.map(function (posicao) {return posicao*this.valor1},objeto));
+console.log("Com this: "+array.map(function(posicao) {return posicao*this.valor2},objeto));

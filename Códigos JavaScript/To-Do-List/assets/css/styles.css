@@ -1,0 +1,45 @@
+body{
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5cm;
+}
+#itens input{
+    background-color: white;
+    text-transform: capitalize;
+    border: 2px solid purple;
+    width: 4cm;
+}
+#itens button{
+    background: purple;
+    color: white;
+    width: 5cm;
+    border: 2px solid purple;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+#itens button:hover{
+    background-color: rgb(255, 137, 255);
+    color: black;
+    border: 2px solid rgb(255, 137, 255);
+}
+label{
+    cursor: pointer;
+}
+#lista{
+    margin-top: 1cm;
+}
+label .check{
+    text-decoration: line-through;
+    color: grey;
+}
+
+#delButton{
+    color: white;
+    background-color: red;
+    border: 0;
+    margin-left: 1cm;
+    cursor: pointer;
+}
